@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+/** box1 + navbar is the top section of the page**/
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/** my amazon-logo = uska nav-logo**/
+.amazon-logo{
+    height: 50px;
+    width: 113px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    margin-left: 5px;
+}
+
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 45px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid #ffffff;
+
+    }
+
+/** box2 **/
+.nav-address{
+    margin-top: 12px;
+    margin-left: 0px;
+    margin-bottom: 12px;
+}
+
+.india{
+    font-size: .9rem;
+    color: white;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.deliver{
+    font-size: 0.74rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.add-icon{
+    display: flex;
+}
+
+/** box3 = search box**/
+
+.nav-search{
+    display: flex;
+    margin-left: 20px;
+    height: 40px;
+    width: 620px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    background-color: #fdb44e;
+}
+
+.nav-search:hover{
+    border: 2px solid #fdb44e;
+
+}
+
+.search-icon{
+    font-size: 1.2rem;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #ededed;
+    width: 60px;
+    text-align: center;
+    font-size: 12px;
+    border: none;
+    
+}
+
+.search-input{
+    width: 100%;
+    font-size: .9rem;
+    border: none;
+    
+}
+
+/** box 4 accounts and lists**/
+.p1{
+    font-size: .75rem;
+    margin-top: 5px;
+}
+
+.p2{
+    font-size: .84rem;
+    font-weight: bold;
+}
+
+.nav-signin{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+/** box 4 returns and order**/
+.p3{
+    font-size: .75rem;
+    margin-top: 5px;
+}
+
+.p4{
+    font-size: .84rem;
+    font-weight: bold;
+}
+
+.nav-return{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+/** box6 cart**/
+
+.cart-icon{
+    display: flex;
+    font-size: .87rem;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.cart-icon i{
+    font-size: 30px;
+    
+}
+
+.cart-word{
+    margin-top: 13px;
+}
+
+.panel{
+    display: flex;
+}
+
+
+/**panel box1**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    font-size: 14px;
+    
+}
+
+.panel-options{
+    display: flex;
+    width: 440px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.all{
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.alltext{
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+/**hero-section**/
+
+.hero-section{
+    background-image: url(heroimage.jpg);
+    height: 315px;
+    background-size: 110%;
+    align-items: flex-end;
+    display: flex;
+  
+  
+}
+
+.hero-msg{
+    background-color: #f5f6f6;
+    height: 40px;
+    width: 1225px;
+    font-size: 14.2px;
+    font-family:  Helvetica;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    
+}
+
+.hero-text{
+    padding-top: 12px;
+}
+
+.amazon-link{
+    color: #007185
+    
+}
+
+.amazon-link:hover{
+    color: #cc5500;
+}
+
+
+/**shop-section row1**/
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ececec;
+    width: 100%;
+    height: 100%;
+}
+
+.box{
+    height: 420px;
+    border-width: 2px solid black;
+    background-color: #007185;
+    width: 23%;
+    margin-bottom: 40px;
+}
+
+
+/**shop-section headset keyboard box(1) **/
+.gaming-acc{
+    font-size: 21px;
+    font-weight: bold;
+    color: #0f1111;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    margin-left: 18px;
+}
+
+.headset-keyboard{
+    display: flex;
+    
+}
+
+.headset-pic{
+    height: 114px;
+    width: 125px;
+    margin-left: 23px;
+    margin-right: 0px;
+}
+
+.headset-text{
+    font-size: 12px;
+    margin-left: 18px;
+    margin-bottom: 1px;
+}
+
+.keyboard-pic{
+    height: 89px;
+    width: 118px;
+    margin-top: 15px;
+    margin-right: 18px;
+    padding-right: 20px;
+    margin-left: 2px;
+    
+}
+
+
+.keyboard-text{
+    font-size: 12px;
+    margin-left: 3px;
+    margin-top: 10px ;
+    margin-bottom: 5px;
+}
+
+.shop1{
+    background-color: white;
+}
+
+.mice-pic{
+    height: 115px;
+    width: 116px;
+    margin-left: 18px;
+    margin-top: 24px;
+    margin-right: 20px;
+}
+
+.chair-pic{
+    height: 115px;
+    width: 113px;
+    margin-top: 24px;
+    margin-right: 20px;
+}
+
+.mice-chairs{
+    display: flex;
+}
+
+.mice-text{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.chair-text{
+    font-size: 12px;
+}
+.micediv{
+    width: 140px;
+}
+
+
+.see-more{
+    margin-top: 32px;
+    margin-left: 20px;
+    font-size: 13px;}
+
+.seemore{
+    color: #007185;
+    
+}
+
+.seemore:hover{
+    color: #cc5500;
+    text-decoration: underline;
+}
+
+/**box2**/
+.shop2-pic{
+    height: 230px;
+    width: 179px;
+    margin-left: 53px;
+}
+.topdeal-text{
+    font-size: 21px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 19px;
+   margin-bottom: 10px;
+}
+
+.shop2{
+    background-color: white;
+}
+
+.upto{
+    display: flex;
+}
+.upto29{
+    background-color: #cc0c39;
+    height: 24px;
+    width: 89px;
+    border-radius: 2px;
+    margin-left: 21px;
+}
+
+.upto29-text{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4px;
+}
+.denim-text{
+    font-size: 13px;
+    margin-top: 6px;
+    margin-left: 20px;
+    font-family: helvetica;
+}
+
+.topdeal2-text{
+    color: #cc0c39;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.topdeal-red{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.see-deals{
+    color: #007185;
+    font-size: 13px;
+}
+.deals{
+    margin-left: 20px;
+    margin-top: 32px;
+}
+
+/**box3 makeup**/
+.shop3{
+    background-color: #ffffff;
+}
+
+.beauty-text{
+    font-size: 21px;
+    font-weight: bold;
+    color: #0f1111;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    margin-left: 18px;
+}
+
+.makeup{
+    height: 300px;
+    width: 256px;
+    margin-left: 18px;
+}
+
+.shopnow-text{
+    color: #007185;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/**box4 sign in for the best experience**/
+.sign-in{
+    font-size: 21px;
+    font-weight: bold;
+    color: #0f1111;
+    padding-top: 22px;
+    margin-bottom: 11px;
+    margin-left: 20px;
+}
+
+
+.shop4{
+    background-color: #ffffff;
+    height: 150px;
+    width: 308px;
+}
+
+.securely{
+    background-color: #ffe135;
+    border: none;
+    border-radius: 6px;
+    height: 30px;
+    width: 260px;
+    margin-left: 17px;
+    margin-top: 6px;
+}
+
+.securely-div{
+    width: 300px;
+    margin-top: 10px;
+}
+
+.shop4{
+    background-color: white;
+    width: 290px;
+    height: 120px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.shop5{
+    height: 420px;
+    margin-top: 30px;
+    background-color: white;
+    width: 25%;
+    margin-bottom: 0px;
+}
+
+.bigbox4{
+    background-color: #ececec;
+}
+
+
+.shop-over{
+    height: 250px;
+    width: 290px;
+    margin-bottom: 0px;
+}
+
+
+
+/**shop-section-2**/
+
+.shop-section-2{
+    border-color: #0f1111;
+    height: 400px;
+}
